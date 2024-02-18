@@ -1,29 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-14T20:57:22 EST" name="Suite" finished-at="2024-02-14T20:57:24 EST" duration-ms="2296">
+  <suite started-at="2024-02-17T23:36:41 EST" name="AllTests" finished-at="2024-02-17T23:36:52 EST" duration-ms="10997">
     <groups>
     </groups>
-    <test started-at="2024-02-14T20:57:22 EST" name="Test" finished-at="2024-02-14T20:57:24 EST" duration-ms="2296">
+    <test started-at="2024-02-17T23:36:41 EST" name="ValidLogin" finished-at="2024-02-17T23:36:47 EST" duration-ms="6455">
       <class name="testCases.ValidLogin">
-        <test-method is-config="true" signature="readConfigFile()[pri:0, instance:testCases.ValidLogin@776aec5c]" started-at="2024-02-14T20:57:22 EST" name="readConfigFile" finished-at="2024-02-14T20:57:22 EST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ValidLogin@13c9d689]" started-at="2024-02-17T23:36:41 EST" name="setUp" finished-at="2024-02-17T23:36:45 EST" duration-ms="4477" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readConfigFile -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases.ValidLogin@776aec5c]" started-at="2024-02-14T20:57:22 EST" name="launchApp" finished-at="2024-02-14T20:57:24 EST" duration-ms="1653" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="validlogin()[pri:0, instance:testCases.ValidLogin@776aec5c]" started-at="2024-02-14T20:57:24 EST" name="validlogin" finished-at="2024-02-14T20:57:24 EST" duration-ms="487" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="validlogin()[pri:0, instance:testCases.ValidLogin@13c9d689]" started-at="2024-02-17T23:36:45 EST" name="validlogin" finished-at="2024-02-17T23:36:46 EST" duration-ms="639" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validlogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.ValidLogin@776aec5c]" started-at="2024-02-14T20:57:24 EST" name="closeApp" finished-at="2024-02-14T20:57:24 EST" duration-ms="105" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.ValidLogin@13c9d689]" started-at="2024-02-17T23:36:46 EST" name="closeApp" finished-at="2024-02-17T23:36:47 EST" duration-ms="1266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- testCases.ValidLogin -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- ValidLogin -->
+    <test started-at="2024-02-17T23:36:47 EST" name="InvalidLogin" finished-at="2024-02-17T23:36:52 EST" duration-ms="4516">
+      <class name="testCases.InvalidPW">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidPW@62ddbd7e]" started-at="2024-02-17T23:36:47 EST" name="setUp" finished-at="2024-02-17T23:36:50 EST" duration-ms="3081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPW()[pri:0, instance:testCases.InvalidPW@62ddbd7e]" started-at="2024-02-17T23:36:50 EST" name="invalidPW" finished-at="2024-02-17T23:36:51 EST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPW -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidPW@62ddbd7e]" started-at="2024-02-17T23:36:51 EST" name="closeApp" finished-at="2024-02-17T23:36:52 EST" duration-ms="983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.InvalidPW -->
+    </test> <!-- InvalidLogin -->
+  </suite> <!-- AllTests -->
 </testng-results>
