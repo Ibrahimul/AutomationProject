@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-AllTests" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,17 @@
                     <div class="method-list-content passed suite-AllTests">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-AllTests" title="testCases.InvalidPW" class="method navigator-link" hash-for-method="invalidPW">invalidPW</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-AllTests" title="testCases.End2End" class="method navigator-link" hash-for-method="EndToEnd">EndToEnd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="testCases.InvalidLogin" class="method navigator-link" hash-for-method="invalidPW">invalidPW</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AllTests" title="testCases.InvalidLogin" class="method navigator-link" hash-for-method="invalidUN">invalidUN</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -141,7 +151,7 @@
           <div class="suite-AllTests-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.InvalidPW</span>
+              <span class="class-name">testCases.InvalidLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -149,6 +159,28 @@
                   <a name="invalidPW">
                   </a> <!-- invalidPW -->
                   <span class="method-name">invalidPW</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidUN">
+                  </a> <!-- invalidUN -->
+                  <span class="method-name">invalidUN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AllTests-class-passed -->
+          <div class="suite-AllTests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.End2End</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="EndToEnd">
+                  </a> <!-- EndToEnd -->
+                  <span class="method-name">EndToEnd</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -170,9 +202,14 @@
   &lt;/test&gt; &lt;!-- ValidLogin --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;InvalidLogin&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.InvalidPW&quot;/&gt;
+      &lt;class name=&quot;testCases.InvalidLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- InvalidLogin --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;End2End&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.End2End&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- End2End --&gt;
 &lt;/suite&gt; &lt;!-- AllTests --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -188,6 +225,9 @@
               </li>
               <li>
                 <span class="test-name">InvalidLogin (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">End2End (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -213,15 +253,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validlogin')
-data.setCell(0, 2, 'testCases.ValidLogin')
-data.setCell(0, 3, 639);
+data.setCell(0, 1, 'EndToEnd')
+data.setCell(0, 2, 'testCases.End2End')
+data.setCell(0, 3, 815);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'invalidPW')
-data.setCell(1, 2, 'testCases.InvalidPW')
-data.setCell(1, 3, 449);
+data.setCell(1, 2, 'testCases.InvalidLogin')
+data.setCell(1, 3, 374);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validlogin')
+data.setCell(2, 2, 'testCases.ValidLogin')
+data.setCell(2, 3, 345);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'invalidUN')
+data.setCell(3, 2, 'testCases.InvalidLogin')
+data.setCell(3, 3, 155);
 window.suiteTableData['AllTests']= { tableData: data, tableDiv: 'times-div-AllTests'}
 return data;
 }
@@ -259,26 +307,45 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">validlogin</span>
-                <span class="method-start">4530 ms</span>
+                <span class="method-start">1774 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeApp</span>
-                <span class="method-start">5181 ms</span>
+                <span class="method-start">2123 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.InvalidPW</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.InvalidLogin</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">6475 ms</span>
+                <span class="method-start">2300 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">invalidPW</span>
-                <span class="method-start">9557 ms</span>
+                <span class="method-start">3751 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidUN</span>
+                <span class="method-start">4126 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeApp</span>
-                <span class="method-start">10007 ms</span>
+                <span class="method-start">4282 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.End2End</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4422 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">EndToEnd</span>
+                <span class="method-start">5797 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">6613 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
