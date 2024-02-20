@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [AllTests]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="ValidLogin(failed)">
+  <test thread-count="5" name="End2End(failed)">
     <classes>
-      <class name="testCases.ValidLogin">
+      <class name="testCases.End2End">
         <methods>
+          <include name="EndToEnd"/>
           <include name="setUp"/>
           <include name="closeApp"/>
-          <include name="validlogin"/>
         </methods>
-      </class> <!-- testCases.ValidLogin -->
+      </class> <!-- testCases.End2End -->
     </classes>
-  </test> <!-- ValidLogin(failed) -->
-  <test thread-count="5" name="InvalidLogin(failed)">
-    <classes>
-      <class name="testCases.InvalidPW">
-        <methods>
-          <include name="setUp"/>
-          <include name="closeApp"/>
-          <include name="invalidPW"/>
-        </methods>
-      </class> <!-- testCases.InvalidPW -->
-    </classes>
-  </test> <!-- InvalidLogin(failed) -->
+  </test> <!-- End2End(failed) -->
 </suite> <!-- Failed suite [AllTests] -->

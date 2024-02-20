@@ -9,7 +9,12 @@
 
 	<test name="InvalidLogin">
 		<classes>
-			<class name="testCases.InvalidPW" />
+			<class name="testCases.InvalidLogin" />
+		</classes>
+	</test>
+	<test name="End2End">
+		<classes>
+			<class name="testCases.End2End" />
 		</classes>
 	</test>
 </suite>

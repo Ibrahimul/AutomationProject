@@ -1,41 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-17T23:36:41 EST" name="AllTests" finished-at="2024-02-17T23:36:52 EST" duration-ms="10997">
+  <suite started-at="2024-02-19T21:35:43 EST" name="AllTests" finished-at="2024-02-19T21:35:49 EST" duration-ms="6757">
     <groups>
     </groups>
-    <test started-at="2024-02-17T23:36:41 EST" name="ValidLogin" finished-at="2024-02-17T23:36:47 EST" duration-ms="6455">
+    <test started-at="2024-02-19T21:35:43 EST" name="ValidLogin" finished-at="2024-02-19T21:35:45 EST" duration-ms="2248">
       <class name="testCases.ValidLogin">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ValidLogin@13c9d689]" started-at="2024-02-17T23:36:41 EST" name="setUp" finished-at="2024-02-17T23:36:45 EST" duration-ms="4477" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ValidLogin@13c9d689]" started-at="2024-02-19T21:35:43 EST" name="setUp" finished-at="2024-02-19T21:35:44 EST" duration-ms="1758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validlogin()[pri:0, instance:testCases.ValidLogin@13c9d689]" started-at="2024-02-17T23:36:45 EST" name="validlogin" finished-at="2024-02-17T23:36:46 EST" duration-ms="639" status="PASS">
+        <test-method signature="validlogin()[pri:0, instance:testCases.ValidLogin@13c9d689]" started-at="2024-02-19T21:35:44 EST" name="validlogin" finished-at="2024-02-19T21:35:45 EST" duration-ms="345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validlogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.ValidLogin@13c9d689]" started-at="2024-02-17T23:36:46 EST" name="closeApp" finished-at="2024-02-17T23:36:47 EST" duration-ms="1266" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.ValidLogin@13c9d689]" started-at="2024-02-19T21:35:45 EST" name="closeApp" finished-at="2024-02-19T21:35:45 EST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- testCases.ValidLogin -->
     </test> <!-- ValidLogin -->
-    <test started-at="2024-02-17T23:36:47 EST" name="InvalidLogin" finished-at="2024-02-17T23:36:52 EST" duration-ms="4516">
-      <class name="testCases.InvalidPW">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidPW@62ddbd7e]" started-at="2024-02-17T23:36:47 EST" name="setUp" finished-at="2024-02-17T23:36:50 EST" duration-ms="3081" status="PASS">
+    <test started-at="2024-02-19T21:35:45 EST" name="InvalidLogin" finished-at="2024-02-19T21:35:47 EST" duration-ms="2104">
+      <class name="testCases.InvalidLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidLogin@2a266d09]" started-at="2024-02-19T21:35:45 EST" name="setUp" finished-at="2024-02-19T21:35:46 EST" duration-ms="1448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidPW()[pri:0, instance:testCases.InvalidPW@62ddbd7e]" started-at="2024-02-17T23:36:50 EST" name="invalidPW" finished-at="2024-02-17T23:36:51 EST" duration-ms="449" status="PASS">
+        <test-method signature="invalidPW()[pri:0, instance:testCases.InvalidLogin@2a266d09]" started-at="2024-02-19T21:35:46 EST" name="invalidPW" finished-at="2024-02-19T21:35:47 EST" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPW -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidPW@62ddbd7e]" started-at="2024-02-17T23:36:51 EST" name="closeApp" finished-at="2024-02-17T23:36:52 EST" duration-ms="983" status="PASS">
+        <test-method signature="invalidUN()[pri:0, instance:testCases.InvalidLogin@2a266d09]" started-at="2024-02-19T21:35:47 EST" name="invalidUN" finished-at="2024-02-19T21:35:47 EST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUN -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidLogin@2a266d09]" started-at="2024-02-19T21:35:47 EST" name="closeApp" finished-at="2024-02-19T21:35:47 EST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- testCases.InvalidPW -->
+      </class> <!-- testCases.InvalidLogin -->
     </test> <!-- InvalidLogin -->
+    <test started-at="2024-02-19T21:35:47 EST" name="End2End" finished-at="2024-02-19T21:35:49 EST" duration-ms="2331">
+      <class name="testCases.End2End">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.End2End@343570b7]" started-at="2024-02-19T21:35:47 EST" name="setUp" finished-at="2024-02-19T21:35:48 EST" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="EndToEnd()[pri:0, instance:testCases.End2End@343570b7]" started-at="2024-02-19T21:35:48 EST" name="EndToEnd" finished-at="2024-02-19T21:35:49 EST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndToEnd -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.End2End@343570b7]" started-at="2024-02-19T21:35:49 EST" name="closeApp" finished-at="2024-02-19T21:35:49 EST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testCases.End2End -->
+    </test> <!-- End2End -->
   </suite> <!-- AllTests -->
 </testng-results>

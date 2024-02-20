@@ -29,6 +29,9 @@ public class LoginPage extends Base {
 	@FindBy(xpath = "//*[@id=\"login_button_container\"]/div/form/div[3]/h3")
 	WebElement WrongPW;
 
+	@FindBy(xpath = ("//*[@id=\"login_button_container\"]/div/form/div[3]/h3"))
+	WebElement WrongUN;
+
 	// Enter data in the username editbox
 	public void enterUserName(String UN) {
 		UserName.sendKeys(UN);
@@ -49,7 +52,7 @@ public class LoginPage extends Base {
 		UserName.sendKeys(UN);
 		Password.sendKeys(PW);
 		LoginButton.click();
-		
+
 	}
 
 	// To verify valid login page
@@ -67,7 +70,16 @@ public class LoginPage extends Base {
 		} else {
 			System.out.println("Password error message did not display");
 		}
+	}
+	public void invalidUserName() {
+		if (WrongUN.isDisplayed()) {
+			System.out.println("Username is required message displayed");
+		}else {
+			System.out.println("Username is required message did not displayed");
+		
+		}
+	}
 
 	}
 
-}
+
