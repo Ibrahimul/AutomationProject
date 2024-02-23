@@ -48,6 +48,7 @@ public class CustomerInfoPage extends Base {
 
 	// Method to enter custoimer info
 
+
 	public void CustomerInfo(String CFN, String CLN, String CZIP) {
 		CusFN.sendKeys(CFN);
 		CusLN.sendKeys(CLN);
