@@ -1,25 +1,23 @@
 package testCases;
-
+import java.io.IOException;
 import org.testng.annotations.Test;
-
-
 import pageFactory.LoginPage;
 import utility.Base;
+import utility.ReadXLSdata;
 
 public class InvalidLogin extends Base {
-	LoginPage login=new LoginPage(driver);
-	@Test
-	public void invalidPW() {
-		LoginPage login=new LoginPage(driver);
-		login.loginPageVarification();
-		login.validLogin("standard_user", "secret_sauc");
-		login.invalidPssword();
+	@Test(dataProviderClass = ReadXLSdata.class, dataProvider = "userCredentials")
+	public void InvalidSignIn(String UN, String PW) throws IOException {
+		LoginPage login = new LoginPage(driver);
+		login.validLogin(UN, PW);
+		//login.invalidUserName();
 	}
-	@Test
-	public void invalidUN() {
-		LoginPage login=new LoginPage(driver);
-		login.validLogin("standard", "secret_sauce");
-		login.invalidUserName();
-	}
+	
+	// Read Excel data using TestNG annotation
+//	@DataProvider(name = "userCredentials")
+//	public Object[][] tData() {
+//		return new Object[][] { { "standard_user", "secret_sauce" }, { "locked_out_user", "secret" },
+//				{ "problem", "secret_sauce" }, { "nouser", "nopassword" } };
+//	}
 
 }

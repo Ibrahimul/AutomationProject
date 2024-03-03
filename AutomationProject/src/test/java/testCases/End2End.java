@@ -1,9 +1,7 @@
 package testCases;
-
-import java.util.concurrent.TimeUnit;
+import java.io.IOException;
 
 import org.testng.annotations.Test;
-
 import pageFactory.CheckoutPage;
 import pageFactory.CustomerInfoPage;
 import pageFactory.InventoryPage;
@@ -13,16 +11,16 @@ import utility.Base;
 
 public class End2End extends Base {
 
-	@SuppressWarnings("deprecation")
 	@Test
-	public void EndToEnd() throws InterruptedException {
+	public void EndToEnd() throws InterruptedException, IOException {
 		LoginPage loginp = new LoginPage(driver);
 		InventoryPage InvPage = new InventoryPage(driver);
 		CustomerInfoPage CusInfo = new CustomerInfoPage(driver);
 		CheckoutPage CheckOut = new CheckoutPage(driver);
 		OrderVerificationPage Order = new OrderVerificationPage(driver);
 
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
 		loginp.loginPageVarification();
 		loginp.validLogin("standard_user", "secret_sauce");
 		InvPage.InventoryPageVarification();
