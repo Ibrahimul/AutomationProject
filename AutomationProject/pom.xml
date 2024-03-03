@@ -104,11 +104,11 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.2.5</version>
 				<configuration>
-					<suiteXmlFiles>
+<!--					<suiteXmlFiles>-->
 <!--						<suiteXmlFile>src/test/resources/TestSuites/AllTests.xml</suiteXmlFile>-->
-						<suiteXmlFile>
-							C:\Users\ullah\git\AutomationProject\AutomationProject\testng.xml</suiteXmlFile>
-					</suiteXmlFiles>
+<!--						<suiteXmlFile>-->
+<!--							C:\Users\ullah\git\AutomationProject\AutomationProject\testng.xml</suiteXmlFile>-->
+<!--					</suiteXmlFiles>-->
 				</configuration>
 			</plugin>
 

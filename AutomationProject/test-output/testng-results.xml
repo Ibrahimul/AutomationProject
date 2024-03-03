@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-02T22:59:51 EST" name="Suite" finished-at="2024-03-02T23:00:07 EST" duration-ms="15983">
+  <suite started-at="2024-03-02T23:05:49 EST" name="Suite" finished-at="2024-03-02T23:06:05 EST" duration-ms="15853">
     <groups>
     </groups>
-    <test started-at="2024-03-02T22:59:51 EST" name="Test" finished-at="2024-03-02T23:00:07 EST" duration-ms="15983">
+    <test started-at="2024-03-02T23:05:49 EST" name="Test" finished-at="2024-03-02T23:06:05 EST" duration-ms="15853">
       <class name="testCases.End2End">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.End2End@36ebc363]" started-at="2024-03-02T23:00:04 EST" name="setUp" finished-at="2024-03-02T23:00:05 EST" duration-ms="1613" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.End2End@36ebc363]" started-at="2024-03-02T23:06:02 EST" name="setUp" finished-at="2024-03-02T23:06:04 EST" duration-ms="1581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="EndToEnd()[pri:0, instance:testCases.End2End@36ebc363]" started-at="2024-03-02T23:00:05 EST" name="EndToEnd" finished-at="2024-03-02T23:00:06 EST" duration-ms="1105" status="PASS">
+        <test-method signature="EndToEnd()[pri:0, instance:testCases.End2End@36ebc363]" started-at="2024-03-02T23:06:04 EST" name="EndToEnd" finished-at="2024-03-02T23:06:05 EST" duration-ms="1194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndToEnd -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.End2End@36ebc363]" started-at="2024-03-02T23:00:06 EST" name="closeApp" finished-at="2024-03-02T23:00:07 EST" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.End2End@36ebc363]" started-at="2024-03-02T23:06:05 EST" name="closeApp" finished-at="2024-03-02T23:06:05 EST" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- testCases.End2End -->
       <class name="testCases.ValidLogin">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ValidLogin@22555ebf]" started-at="2024-03-02T23:00:01 EST" name="setUp" finished-at="2024-03-02T23:00:03 EST" duration-ms="1583" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.ValidLogin@22555ebf]" started-at="2024-03-02T23:06:00 EST" name="setUp" finished-at="2024-03-02T23:06:01 EST" duration-ms="1508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validlogin()[pri:0, instance:testCases.ValidLogin@22555ebf]" started-at="2024-03-02T23:00:03 EST" name="validlogin" finished-at="2024-03-02T23:00:04 EST" duration-ms="917" status="PASS">
+        <test-method signature="validlogin()[pri:0, instance:testCases.ValidLogin@22555ebf]" started-at="2024-03-02T23:06:01 EST" name="validlogin" finished-at="2024-03-02T23:06:02 EST" duration-ms="841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validlogin -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.ValidLogin@22555ebf]" started-at="2024-03-02T23:00:04 EST" name="closeApp" finished-at="2024-03-02T23:00:04 EST" duration-ms="97" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.ValidLogin@22555ebf]" started-at="2024-03-02T23:06:02 EST" name="closeApp" finished-at="2024-03-02T23:06:02 EST" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- testCases.ValidLogin -->
       <class name="testCases.InvalidLogin">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:51 EST" name="setUp" finished-at="2024-03-02T22:59:53 EST" duration-ms="1622" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:50 EST" name="setUp" finished-at="2024-03-02T23:05:51 EST" duration-ms="1740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="InvalidSignIn(java.lang.String,java.lang.String)[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:53 EST" name="InvalidSignIn" data-provider="userCredentials" finished-at="2024-03-02T22:59:53 EST" duration-ms="375" status="PASS">
+        <test-method signature="InvalidSignIn(java.lang.String,java.lang.String)[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:51 EST" name="InvalidSignIn" data-provider="userCredentials" finished-at="2024-03-02T23:05:52 EST" duration-ms="357" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,15 +55,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidSignIn -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:53 EST" name="closeApp" finished-at="2024-03-02T22:59:53 EST" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:52 EST" name="closeApp" finished-at="2024-03-02T23:05:52 EST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:53 EST" name="setUp" finished-at="2024-03-02T22:59:55 EST" duration-ms="1519" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:52 EST" name="setUp" finished-at="2024-03-02T23:05:53 EST" duration-ms="1527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="InvalidSignIn(java.lang.String,java.lang.String)[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:55 EST" name="InvalidSignIn" data-provider="userCredentials" finished-at="2024-03-02T22:59:55 EST" duration-ms="303" status="PASS">
+        <test-method signature="InvalidSignIn(java.lang.String,java.lang.String)[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:53 EST" name="InvalidSignIn" data-provider="userCredentials" finished-at="2024-03-02T23:05:54 EST" duration-ms="305" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,15 +79,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidSignIn -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:55 EST" name="closeApp" finished-at="2024-03-02T22:59:55 EST" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:54 EST" name="closeApp" finished-at="2024-03-02T23:05:54 EST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:55 EST" name="setUp" finished-at="2024-03-02T22:59:57 EST" duration-ms="1542" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:54 EST" name="setUp" finished-at="2024-03-02T23:05:55 EST" duration-ms="1494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="InvalidSignIn(java.lang.String,java.lang.String)[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:57 EST" name="InvalidSignIn" data-provider="userCredentials" finished-at="2024-03-02T22:59:57 EST" duration-ms="319" status="PASS">
+        <test-method signature="InvalidSignIn(java.lang.String,java.lang.String)[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:55 EST" name="InvalidSignIn" data-provider="userCredentials" finished-at="2024-03-02T23:05:56 EST" duration-ms="315" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,15 +103,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidSignIn -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:57 EST" name="closeApp" finished-at="2024-03-02T22:59:57 EST" duration-ms="104" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:56 EST" name="closeApp" finished-at="2024-03-02T23:05:56 EST" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:57 EST" name="setUp" finished-at="2024-03-02T22:59:59 EST" duration-ms="1503" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:56 EST" name="setUp" finished-at="2024-03-02T23:05:57 EST" duration-ms="1543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="InvalidSignIn(java.lang.String,java.lang.String)[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:59 EST" name="InvalidSignIn" data-provider="userCredentials" finished-at="2024-03-02T22:59:59 EST" duration-ms="302" status="PASS">
+        <test-method signature="InvalidSignIn(java.lang.String,java.lang.String)[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:57 EST" name="InvalidSignIn" data-provider="userCredentials" finished-at="2024-03-02T23:05:58 EST" duration-ms="345" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,15 +127,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidSignIn -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:59 EST" name="closeApp" finished-at="2024-03-02T22:59:59 EST" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:58 EST" name="closeApp" finished-at="2024-03-02T23:05:58 EST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T22:59:59 EST" name="setUp" finished-at="2024-03-02T23:00:01 EST" duration-ms="1560" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:58 EST" name="setUp" finished-at="2024-03-02T23:05:59 EST" duration-ms="1440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="InvalidSignIn(java.lang.String,java.lang.String)[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:00:01 EST" name="InvalidSignIn" data-provider="userCredentials" finished-at="2024-03-02T23:00:01 EST" duration-ms="358" status="PASS">
+        <test-method signature="InvalidSignIn(java.lang.String,java.lang.String)[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:05:59 EST" name="InvalidSignIn" data-provider="userCredentials" finished-at="2024-03-02T23:06:00 EST" duration-ms="328" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -151,7 +151,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidSignIn -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:00:01 EST" name="closeApp" finished-at="2024-03-02T23:00:01 EST" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testCases.InvalidLogin@3270d194]" started-at="2024-03-02T23:06:00 EST" name="closeApp" finished-at="2024-03-02T23:06:00 EST" duration-ms="112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->

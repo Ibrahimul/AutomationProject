@@ -71,7 +71,7 @@ public class CheckoutPage extends Base{
 		}
 		
 	}
-	// Payment info verification 
+	// Payment info verification ///
 		public void PaymentVerification() {
 			if(PaymentInfo.isDisplayed()) {
 				System.out.println("Correct Payment info displayed");
