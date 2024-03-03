@@ -16,7 +16,7 @@ public class Base {
 	public static FileReader file;
 
 	@BeforeMethod
-	// Read config.properties file and launch browser
+	/// Read config.properties file and launch browser
 	public void setUp() throws IOException {
 		if (driver == null) {
 
