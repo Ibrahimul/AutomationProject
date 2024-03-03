@@ -22,7 +22,7 @@ public class ValidLogin extends Base {
 		
 		File f = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		Files.copy(f, new File(
-				"C:\\Users\\ullah\\git\\AutomationProject\\AutomationProject\\src\\test\\resources\\ScreenShots\\Photo\\login2.png"));
+				"C:\\Users\\ullah\\git\\AutomationProject\\AutomationProject\\src\\test\\resources\\ScreenShots\\Photo\\login3.png"));
 	}
 
 }
