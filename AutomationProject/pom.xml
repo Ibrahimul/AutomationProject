@@ -106,9 +106,12 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/resources/TestSuites/AllTests.xml</suiteXmlFile>
+						<suiteXmlFile>
+							C:\Users\ullah\git\AutomationProject\AutomationProject\testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
+
 		</plugins>
 	</build>
 
