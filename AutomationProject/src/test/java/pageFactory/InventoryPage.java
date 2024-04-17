@@ -24,7 +24,7 @@ public class InventoryPage extends Base {
 	@FindBy(xpath = "//*[@id=\"item_1_title_link\"]/div")
 	WebElement ProductName;
 
-	@FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-bolt-t-shirt']")
+	@FindBy(xpath = "//button[@id='add-to-cart']")
 	WebElement AddToCartBut;
 
 	@FindBy(xpath = ("//*[@class=\"shopping_cart_link\"]"))

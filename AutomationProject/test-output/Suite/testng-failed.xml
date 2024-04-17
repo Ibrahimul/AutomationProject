@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.InvalidLogin">
+      <class name="testCases.End2End">
         <methods>
-          <include name="InvalidSignIn" invocation-numbers="0"/>
+          <include name="EndToEnd"/>
           <include name="setUp"/>
           <include name="closeApp"/>
         </methods>
-      </class> <!-- testCases.InvalidLogin -->
+      </class> <!-- testCases.End2End -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

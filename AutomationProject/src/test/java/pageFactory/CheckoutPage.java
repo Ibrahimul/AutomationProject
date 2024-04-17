@@ -29,7 +29,7 @@ public class CheckoutPage extends Base{
 	@FindBy(xpath = "//div[contains(text(),'Free Pony Express Delivery!')]")
 	WebElement ShipInfo;
 	
-	@FindBy(xpath = "//div[@class='summary_info_label summary_total_label']")
+	@FindBy(xpath = "//*[@id=\"checkout_summary_container\"]/div/div[2]/div[8]")
 	WebElement TotalPrice;
 	
 	@FindBy(xpath = "//*[@id='finish']")
