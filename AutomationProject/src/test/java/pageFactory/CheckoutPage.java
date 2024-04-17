@@ -44,7 +44,7 @@ public class CheckoutPage extends Base{
 		FinishBut.click();
 	}
 	
-	// Checkout page verification
+	// Checkout page verification 1
 	public void CheckoutPageVerification() {
 		if (CheckoutText.isDisplayed()) {
 			System.out.println("Checkout page displayed successfully");
